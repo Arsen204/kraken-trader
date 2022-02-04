@@ -1,0 +1,16 @@
+port: "5000"
+host: localhost
+
+kraken:
+  base_uri: "futures.kraken.com"
+  base_demo_uri: "demo-futures.kraken.com"
+  ws_endpoint: "/ws/v1"
+  rest_endpoint: "/derivatives/api/v3"
+
+db:
+  server: "postgres"
+  host: "localhost"
+  port: "5442"
+  user: "postgres"
+  dbname: "course-project"
+  sslmode: "disable"

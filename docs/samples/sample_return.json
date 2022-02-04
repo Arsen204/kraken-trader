@@ -1,0 +1,148 @@
+[
+  {
+    "result": "success",
+    "sendStatus": {
+      "order_id": "614a5298-0071-450f-83c6-0617ce8c6bc4",
+      "status": "wouldNotReducePosition",
+      "receivedTime": "2019-09-05T16:32:54.076Z",
+      "orderEvents": [
+        {
+          "uid": "614a5298-0071-450f-83c6-0617ce8c6bc4",
+          "order": {
+            "orderId": "614a5298-0071-450f-83c6-0617ce8c6bc4",
+            "cliOrdId": null,
+            "type": "lmt",
+            "symbol": "pi_xbtusd",
+            "side": "buy",
+            "quantity": 10000,
+            "filled": 0,
+            "limitPrice": 9400,
+            "reduceOnly": true,
+            "timestamp": "2019-09-05T16:32:54.076Z",
+            "lastUpdateTimestamp": "2019-09-05T16:32:54.076Z"
+          },
+          "reason": "WOULD_NOT_REDUCE_POSITION",
+          "type": "REJECT"
+        }
+      ]
+    },
+    "serverTime": "2019-09-05T16:32:54.077Z"
+  },
+  {
+    "result": "success",
+    "sendStatus": {
+      "order_id": "179f9af8-e45e-469d-b3e9-2fd4675cb7d0",
+      "status": "placed",
+      "receivedTime": "2019-09-05T16:33:50.734Z",
+      "orderEvents": [
+        {
+          "order": {
+            "orderId": "179f9af8-e45e-469d-b3e9-2fd4675cb7d0",
+            "cliOrdId": null,
+            "type": "lmt",
+            "symbol": "pi_xbtusd",
+            "side": "buy",
+            "quantity": 10000,
+            "filled": 0,
+            "limitPrice": 9400,
+            "reduceOnly": false,
+            "timestamp": "2019-09-05T16:33:50.734Z",
+            "lastUpdateTimestamp": "2019-09-05T16:33:50.734Z"
+          },
+          "reducedQuantity": null,
+          "type": "PLACE"
+        }
+      ]
+    },
+    "serverTime": "2019-09-05T16:33:50.734Z"
+  },
+  {
+    "result": "success",
+    "sendStatus": {
+      "order_id": "1abfd3c6-af93-4b30-91cc-e4a93797f3f5",
+      "status": "placed",
+      "receivedTime": "2019-12-05T10:20:50.701Z",
+      "orderEvents": [
+        {
+          "orderTrigger": {
+            "uid": "1abfd3c6-af93-4b30-91cc-e4a93797f3f5",
+            "clientId": null,
+            "type": "lmt",
+            "symbol": "pi_xbtusd",
+            "side": "buy",
+            "quantity": 10,
+            "limitPrice": 15000,
+            "triggerPrice": 9500,
+            "triggerSide": "trigger_below",
+            "triggerSignal": "mark_price",
+            "reduceOnly": false,
+            "timestamp": "2019-12-05T10:20:50.701Z",
+            "lastUpdateTimestamp": "2019-12-05T10:20:50.701Z"
+          },
+          "type": "PLACE"
+        }
+      ]
+    },
+    "serverTime": "2019-12-05T10:20:50.702Z"
+  },
+  {
+    "result": "success",
+    "sendStatus": {
+      "order_id": "d08021f7-58cb-4f2c-9c86-da4c60de46bb",
+      "status": "placed",
+      "receivedTime": "2019-09-05T16:38:43.651Z",
+      "orderEvents": [
+        {
+          "order": {
+            "orderId": "d08021f7-58cb-4f2c-9c86-da4c60de46bb",
+            "cliOrdId": null,
+            "type": "lmt",
+            "symbol": "pi_xbtusd",
+            "side": "sell",
+            "quantity": 10000,
+            "filled": 0,
+            "limitPrice": 10640,
+            "reduceOnly": true,
+            "timestamp": "2019-09-05T16:38:43.651Z",
+            "lastUpdateTimestamp": "2019-09-05T16:38:43.651Z"
+          },
+          "reducedQuantity": 0,
+          "type": "PLACE"
+        }
+      ]
+    },
+    "serverTime": "2019-09-05T16:38:43.652Z"
+  },
+  {
+    "result": "success",
+    "sendStatus": {
+      "order_id": "61ca5732-3478-42fe-8362-abbfd9465294",
+      "status": "placed",
+      "receivedTime": "2019-12-11T17:17:33.888Z",
+      "orderEvents": [
+        {
+          "executionId": "e1ec9f63-2338-4c44-b40a-43486c6732d7",
+          "price": 7244.5,
+          "amount": 10,
+          "orderPriorEdit": null,
+          "orderPriorExecution": {
+            "orderId": "61ca5732-3478-42fe-8362-abbfd9465294",
+            "cliOrdId": null,
+            "type": "lmt",
+            "symbol": "pi_xbtusd",
+            "side": "buy",
+            "quantity": 10,
+            "filled": 0,
+            "limitPrice": 7500,
+            "reduceOnly": false,
+            "timestamp": "2019-12-11T17:17:33.888Z",
+            "lastUpdateTimestamp": "2019-12-11T17:17:33.888Z"
+          },
+          "takerReducedQuantity": null,
+          "type": "EXECUTION"
+        }
+      ]
+    },
+    "serverTime": "2019-12-11T17:17:33.888Z"
+  }
+]

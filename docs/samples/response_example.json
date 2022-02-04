@@ -1,0 +1,95 @@
+[
+  {
+    "result": "success",
+    "uid": "4bd3c9a0-3eeb-4bdc-886d-fc67f4527fa3",
+    "status": "placed",
+    "serverTime": "2021-12-01T04:36:47.120Z",
+    "receivedTime": "2021-12-01T04:36:47.119Z",
+    "orderEvents": [
+      {
+        "order": {
+          "orderId": "4bd3c9a0-3eeb-4bdc-886d-fc67f4527fa3",
+          "cliOrdId": null,
+          "type": "lmt",
+          "symbol": "pi_xbtusd",
+          "side": "buy",
+          "quantity": 1,
+          "filled": 0,
+          "limitPrice": 57208.5,
+          "reduceOnly": false,
+          "timestamp": "2021-12-01T04:36:47.119Z",
+          "lastUpdateTimestamp": "2021-12-01T04:36:47.119Z"
+        },
+        "reducedQuantity": null,
+        "type": "PLACE"
+      }
+    ]
+  },
+
+  {
+    "status": "INTERNAL_SERVER_ERROR",
+    "result": "error",
+    "errors": [{ "code": 73, "message": "IOC_WOULD_NOT_EXECUTE" }],
+    "serverTime": "2021-12-01T04:43:38.514Z"
+  },
+  {
+    "result": "success",
+    "uid": "e5ad3c64-8e2a-44b6-b14d-0f6fdd777327",
+    "status": "filled",
+    "serverTime": "2021-12-01T04:44:51.364Z",
+    "receivedTime": "2021-12-01T04:44:51.362Z",
+    "orderEvents": [
+      {
+        "executionId": "8ab5d91c-e97d-4317-8b83-ac6c43cfa0a1",
+        "price": 57214.5,
+        "amount": 10,
+        "orderPriorEdit": null,
+        "orderPriorExecution": {
+          "orderId": "e5ad3c64-8e2a-44b6-b14d-0f6fdd777327",
+          "cliOrdId": null,
+          "type": "ioc",
+          "symbol": "pi_xbtusd",
+          "side": "buy",
+          "quantity": 10,
+          "filled": 0,
+          "limitPrice": 57219.5,
+          "reduceOnly": false,
+          "timestamp": "2021-12-01T04:44:51.362Z",
+          "lastUpdateTimestamp": "2021-12-01T04:44:51.362Z"
+        },
+        "takerReducedQuantity": null,
+        "type": "EXECUTION"
+      }
+    ]
+  },
+  {
+    "result": "success",
+    "uid": "f9feec0b-e4bf-4791-81fc-9821f664d42d",
+    "status": "filled",
+    "serverTime": "2021-12-01T04:47:41.706Z",
+    "receivedTime": "2021-12-01T04:47:41.696Z",
+    "orderEvents": [
+      {
+        "executionId": "fcc22c87-9402-4d0a-ac96-862443daaf54",
+        "price": 57039.5,
+        "amount": 10,
+        "orderPriorEdit": null,
+        "orderPriorExecution": {
+          "orderId": "f9feec0b-e4bf-4791-81fc-9821f664d42d",
+          "cliOrdId": null,
+          "type": "ioc",
+          "symbol": "pi_xbtusd",
+          "side": "sell",
+          "quantity": 10,
+          "filled": 0,
+          "limitPrice": 56469.5,
+          "reduceOnly": true,
+          "timestamp": "2021-12-01T04:47:41.696Z",
+          "lastUpdateTimestamp": "2021-12-01T04:47:41.696Z"
+        },
+        "takerReducedQuantity": null,
+        "type": "EXECUTION"
+      }
+    ]
+  }
+]
